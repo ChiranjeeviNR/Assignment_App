@@ -1,0 +1,2 @@
+4. your answer to HOW YOU MADE THE RESULT POD work.
+To make the result pod work, we need to restart the db pod, so after the restart, it's automatic to restart the result and worker pod.
