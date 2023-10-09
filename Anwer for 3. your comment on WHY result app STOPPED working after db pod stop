@@ -1,0 +1,2 @@
+3. your comment on WHY result app STOPPED working after db pod stop
+The DB pod is the only one who stores the data, which means the entire database was inside the DB pod, so the moment we stopped the DB, the data was lost. So the resulting pod also stops showing results.
